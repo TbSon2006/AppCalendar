@@ -162,7 +162,7 @@
             Controls.Add(txtLocation);
             Controls.Add(txtName);
             Name = "AppointmentWindow";
-            Text = "AppointmentWindow";
+            Text = "Appointment";
             Load += AppointmentWindow_Load;
             ResumeLayout(false);
             PerformLayout();

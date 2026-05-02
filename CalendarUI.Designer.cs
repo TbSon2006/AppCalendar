@@ -84,7 +84,8 @@
             Controls.Add(btnAddAppt);
             Controls.Add(dgvSchedule);
             Name = "CalendarUI";
-            Text = "Form1";
+            Text = "Calendar";
+            Load += CalendarUI_Load;
             ((System.ComponentModel.ISupportInitialize)dgvSchedule).EndInit();
             ResumeLayout(false);
         }

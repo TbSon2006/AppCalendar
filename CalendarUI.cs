@@ -104,5 +104,10 @@ namespace AppCalendar
         {
             FilterAppointmentsByDate();
         }
+
+        private void CalendarUI_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
