@@ -38,10 +38,10 @@
             // dgvSchedule
             // 
             dgvSchedule.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvSchedule.Location = new Point(429, 30);
+            dgvSchedule.Location = new Point(350, 30);
             dgvSchedule.Name = "dgvSchedule";
             dgvSchedule.RowHeadersWidth = 51;
-            dgvSchedule.Size = new Size(341, 355);
+            dgvSchedule.Size = new Size(430, 355);
             dgvSchedule.TabIndex = 0;
             // 
             // btnAddAppt
@@ -57,7 +57,7 @@
             // 
             // monthCalendar
             // 
-            monthCalendar.Location = new Point(71, 99);
+            monthCalendar.Location = new Point(31, 101);
             monthCalendar.Name = "monthCalendar";
             monthCalendar.TabIndex = 2;
             monthCalendar.DateChanged += monthCalendar_DateChanged;
